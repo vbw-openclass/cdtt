@@ -23,6 +23,13 @@ class UserSeeder extends Seeder
 				"created_at" => Carbon::now(),
 				"updated_at" => Carbon::now(),
 			],
+			[
+				"name" => "vinceby67",
+				"email" => "vincent.billerey.pro@gmail.com",
+				"password" => Hash::make('adminadmin'),
+				"created_at" => Carbon::now(),
+				"updated_at" => Carbon::now(),
+			],
 		]);
     }
 }

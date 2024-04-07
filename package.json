@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "*",
+        "@tailwindcss/typography": "*",
+        "autoprefixer": "*",
+        "axios": "*",
+        "flowbite": "*",
+        "laravel-vite-plugin": "*",
+        "postcss": "*",
+        "tailwindcss": "*",
+        "vite": "*"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "*"
+    }
+}

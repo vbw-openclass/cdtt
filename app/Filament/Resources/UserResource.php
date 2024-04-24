@@ -58,11 +58,7 @@ class UserResource extends Resource
 					->dehydrateStateUsing(fn (string $state): string => Hash::make($state))
 					->dehydrated(fn (?string $state): bool => filled($state))
 					->required(fn (string $operation): bool => $operation === 'create')
-                    ->maxLength(255),
-                Forms\Components\Textarea::make('two_factor_secret')
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('two_factor_recovery_codes')
-                    ->columnSpanFull(),
+                    ->maxLength(255)
             ]);
     }
 

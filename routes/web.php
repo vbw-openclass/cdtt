@@ -15,7 +15,14 @@ use Laravel\Folio\Folio;
 
 Folio::path(resource_path('views/pages'))->middleware([
 	'auth/*' => [
-		'guest'
+		'guest',
+	],
+	'guest/*' => [
+		'guest',
+	],
+	'app/*' => [
+		'auth',
+		'verified',
 	],
     'user/*' => [
         'auth',

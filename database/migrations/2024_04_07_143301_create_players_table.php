@@ -14,7 +14,7 @@ return new class extends Migration
     {
         Schema::create('players', function (Blueprint $table) {
             $table->id();
-            $table->foreignId(Club::class)->on('clubs')->onDelete('cascade');
+            $table->foreignId('club_id')->constrained()->cascadeOnDelete();
             $table->bigInteger('licence')->nullable()->unique()->default(0);
             $table->string("name");
             $table->string("surname");

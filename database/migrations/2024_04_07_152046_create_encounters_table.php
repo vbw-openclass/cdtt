@@ -15,13 +15,16 @@ return new class extends Migration
     {
         Schema::create('encounters', function (Blueprint $table) {
             $table->id();
-            $table->foreignId(Championship::class)->on("championships")->onDelete('cascade');
+            $table->foreignId('championship_id')->constrained()->cascadeOnDelete();
             $table->timestamp('date')->nullable()->default(now());
             $table->smallInteger('day')->nullable()->default(12);
-            $table->foreignId('team_a')->on("teams")->onDelete('cascade');
-            $table->foreignId('team_b')->on("teams")->onDelete('cascade');
+			$table->unsignedBigInteger('team_a_id');
+			$table->unsignedBigInteger('team_b_id');
             $table->string('state', 100)->nullable()->default('text');
             $table->timestamps();
+
+			$table->foreign('team_a_id')->references('id')->on('teams')->cascadeOnDelete();
+			$table->foreign('team_b_id')->references('id')->on('teams')->cascadeOnDelete();
         });
     }
 

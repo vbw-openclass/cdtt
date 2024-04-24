@@ -15,7 +15,7 @@ return new class extends Migration
         Schema::create('championships', function (Blueprint $table) {
             $table->id();
             $table->integer('season')->unsigned()->default(2324);
-            $table->foreignId(ChampionshipCategory::class)->on('championship_categories')->onDelete('cascade');
+            $table->foreignId('championship_category_id')->constrained()->cascadeOnDelete();
             $table->string('state', 100)->default('active');
             $table->timestamps();
         });

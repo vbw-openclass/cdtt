@@ -16,8 +16,8 @@ return new class extends Migration
             $table->id();
             $table->string("name");
             $table->integer('department')->unsigned()->default(67);
-            $table->text("adress");
-            $table->foreignId(User::class)->on('users')->onDelete('cascade');
+            $table->text("address");
+			$table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->boolean('state')->default(true);
             $table->timestamps();
         });

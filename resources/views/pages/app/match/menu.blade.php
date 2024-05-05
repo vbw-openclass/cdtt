@@ -16,7 +16,7 @@
                 <!-- Pricing Card -->
                 <div class="flex flex-col p-6 mx-auto space-y-5 max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                     <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                        <h3 class="mb-4 text-2xl font-semibold">Informations match</h3>
+                        <h3 class="mb-4 text-2xl font-semibold">Informations match : Saison : 2023-2024 ; secteur : Strasbourg ou Nord ; Division : Promotion, vétéran etc ; La journée : 1,2,3 etc ; La date et l'heure ; les équipes qui s'affrontent</h3>
                     </div>
                     <div class="flex flex-col p-6 w-full space-y-5 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                         <div class="flex flex-row p-6 w-full mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">

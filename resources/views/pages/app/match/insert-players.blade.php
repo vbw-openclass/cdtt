@@ -49,7 +49,7 @@
                                 </div>
                             </th>
                             <!-- TODO:Récupérer la liste des joueurs qui composent l'équipe, s'il y a 4 joueurs pour un championnat de 3 joueurs c'est pas grave, il suffira à l'utilisateur de cocher les joueurs qu'il veut pour que ça s'affiche en-dessous -->
-                            <td class="px-6 py-4">
+                            <th class="px-6 py-4">
                                 <button id="dropdownCheckboxButton" data-dropdown-toggle="dropdownDefaultCheckbox" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-56 px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown checkbox 
                                     <svg class="w-10 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-20 0 30 6">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -60,37 +60,40 @@
 
                                     </ul>
                                 </div>
-                            </td>
+                            </th>
                         </tr>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
                                 <!-- TODO:Récupérer le nom, prénom, numéro de licence et le classement du joueur correspondant à l'équipe. Exemple : Billerey Vincent, 305422, 75 -->
                                 Nom, prénom,n° de licence, classement
-                            </th>
+                            </td>
                             <td class="px-6 py-4">
                                 Nom, prénom,n° de licence, classement
                             </td>
                         </tr>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                <!-- TODO:Récupérer le nom, prénom, numéro de licence et le classement du joueur correspondant à l'équipe. Exemple : Billerey Vincent, 305422, 75 -->
                                 Nom, prénom,n° de licence, classement
-                            </th>
+                            </td>
                             <td class="px-6 py-4">
                                 Nom, prénom,n° de licence, classement
                             </td>
                         </tr>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                <!-- TODO:Récupérer le nom, prénom, numéro de licence et le classement du joueur correspondant à l'équipe. Exemple : Billerey Vincent, 305422, 75 -->
                                 Nom, prénom,n° de licence, classement
-                            </th>
+                            </td>
                             <td class="px-6 py-4">
                                 Nom, prénom,n° de licence, classement
                             </td>
                         </tr>
                         <tr class="border-b border-gray-200 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                            <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                <!-- TODO:Récupérer le nom, prénom, numéro de licence et le classement du joueur correspondant à l'équipe. Exemple : Billerey Vincent, 305422, 75 -->
                                 Nom, prénom,n° de licence, classement
-                            </th>
+                            </td>
                             <td class="px-6 py-4">
                                 Nom, prénom,n° de licence, classement
                             </td>

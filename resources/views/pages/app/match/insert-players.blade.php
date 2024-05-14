@@ -12,7 +12,11 @@
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
                 <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
             </div>
+
             <div class="relative border overflow-x-auto shadow-md sm:rounded-lg">
+                <div class="flex flex-col p-6  text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Informations match : Saison : 2023-2024 ; secteur : Strasbourg ou Nord ; Division : Promotion, vétéran etc ; La journée : 1,2,3 etc ; La date et l'heure ; les équipes qui s'affrontent</h3>
+                </div>
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
                         <tr>

@@ -16,7 +16,9 @@ class DatabaseSeeder extends Seeder
 			RoleSeeder::class,
 			UserSeeder::class,
 			TranslationSeeder::class,
-			ChampionshipCategorySeeder::class
+			ChampionshipCategorySeeder::class,
+			ClubSeeder::class,
+			PlayerSeeder::class,
 		]);
 	}
 }

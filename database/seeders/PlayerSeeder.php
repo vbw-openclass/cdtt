@@ -19,7 +19,6 @@ class PlayerSeeder extends Seeder
 				'licence' => '422786',
 				'name' => 'Billerey',
 				'surname' => 'Vincent',
-				'birthday' => '01/12/1991', // non obligatoire
 				'ranking' => 75
 			],
 			[
@@ -27,7 +26,6 @@ class PlayerSeeder extends Seeder
 				'licence' => '30611',
 				'name' => 'Wandres',
 				'surname' => 'Xavier',
-				'birthday' => '', // non obligatoire
 				'ranking' => 80
 			],
 			[
@@ -35,7 +33,6 @@ class PlayerSeeder extends Seeder
 				'licence' => '422787',
 				'name' => 'Wagner',
 				'surname' => 'Thomas',
-				'birthday' => '', // non obligatoire
 				'ranking' => 40
 			],
 			[
@@ -43,7 +40,6 @@ class PlayerSeeder extends Seeder
 				'licence' => '30570',
 				'name' => 'Rambaut',
 				'surname' => 'Martine',
-				'birthday' => '', // non obligatoire
 				'ranking' => 90
 			],
 		]);

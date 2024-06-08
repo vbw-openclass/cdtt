@@ -16,9 +16,12 @@
                         <x-jet.nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                             {{ __('navigation.dashboard') }}
                         </x-jet.nav-link>
-                        <x-jet.nav-link href="{{ route('match-list') }}" :active="request()->routeIs('match-list')">
-                            {{ __('navigation.match-list') }}
-                        </x-jet.nav-link>
+						<x-jet.nav-link href="{{ route('match-list') }}" :active="request()->routeIs('match-list')">
+							{{ __('navigation.match-list') }}
+						</x-jet.nav-link>
+						<x-jet.nav-link href="{{ route('championship-list') }}" :active="request()->routeIs('championship-list')">
+							{{ __('navigation.championship-list') }}
+						</x-jet.nav-link>
                     </div>
                 @endauth
             </div>

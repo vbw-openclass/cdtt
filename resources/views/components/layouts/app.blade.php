@@ -18,7 +18,7 @@
     </head>
 
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-[url('https://senseiminimal.github.io/Dragonic/img/dark_leather.png')]">
+        <div class="min-h-screen bg-white dark:bg-gray-900">
             <x-layouts.navigation-menu />
 
             @if (isset($header))

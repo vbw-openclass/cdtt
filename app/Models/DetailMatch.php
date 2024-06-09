@@ -12,8 +12,15 @@ class DetailMatch extends Model
 
 	protected $fillable = [
 		'encounter_id',
-		'player_id',
-		'goals',
+		'order',
+		'match_type',
+		'player_a_id',
+		'player_b_id',
+		'set_one',
+		'set_two',
+		'set_three',
+		'set_four',
+		'set_five',
 	];
 
 	public function encounter(): BelongsTo
@@ -21,8 +28,13 @@ class DetailMatch extends Model
 		return $this->belongsTo(Encounter::class);
 	}
 
-	public function player(): BelongsTo
+	public function homePlayer(): BelongsTo
 	{
-		return $this->belongsTo(Player::class);
+		return $this->belongsTo(Player::class, 'player_a_id');
+	}
+
+	public function awayPlayer(): BelongsTo
+	{
+		return $this->belongsTo(Player::class, 'player_a_id');
 	}
 }

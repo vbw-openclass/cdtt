@@ -25,4 +25,9 @@ class Player extends Model
 	{
 		return $this->hasMany(DetailMatch::class);
 	}
+
+	public function user(): BelongsTo
+	{
+		return $this->belongsTo(User::class);
+	}
 }

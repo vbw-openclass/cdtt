@@ -12,19 +12,27 @@ class Encounter extends Model
     use HasFactory;
 
 	protected $fillable = [
-		'home_team_id',
-		'away_team_id',
+		'championship_id',
 		'date',
+		'day',
+		'team_a_id',
+		'team_b_id',
+		'state',
 	];
+
+	public function championship(): BelongsTo
+	{
+		return $this->belongsTo(Championship::class);
+	}
 
 	public function homeTeam(): BelongsTo
 	{
-		return $this->belongsTo(Team::class, 'home_team_id');
+		return $this->belongsTo(Team::class, 'team_a_id');
 	}
 
 	public function awayTeam(): BelongsTo
 	{
-		return $this->belongsTo(Team::class, 'away_team_id');
+		return $this->belongsTo(Team::class, 'team_b_id');
 	}
 
 	public function detailMatches(): HasMany

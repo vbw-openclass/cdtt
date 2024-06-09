@@ -14,7 +14,8 @@ class Team extends Model
 
 	protected $fillable = [
 		'club_id',
-		'name',
+		'number',
+		'state'
 	];
 
 	public function getNameAttribute(): string

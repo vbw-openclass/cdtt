@@ -18,6 +18,11 @@ class Championship extends Model
 		'state',
 	];
 
+	public function getNameAttribute(): string
+	{
+		return $this->category->name . " " . $this->season;
+	}
+
 	public function category(): BelongsTo
 	{
 		return $this->belongsTo(ChampionshipCategory::class, 'championship_category_id');

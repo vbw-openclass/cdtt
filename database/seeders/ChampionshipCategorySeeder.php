@@ -23,34 +23,21 @@ class ChampionshipCategorySeeder extends Seeder
 				'players' => 3
 			],
 			[
-				'name' => 'Promotion sud',
+				'name' => 'Promotion',
 				'players' => 3
 			],
 			[
-				'name' => 'Promotion nord',
+				'name' => 'Division 1',
 				'players' => 3
 			],
 			[
-				'name' => 'Division 1 nord',
-				'players' => 3
-			],
-			[
-				'name' => 'Vétéran sud',
+				'name' => 'Vétéran',
 				'players' => 2
 			],
 			[
-				'name' => 'Vétéran nord',
+				'name' => 'Mixte',
 				'players' => 2
 			],
-			[
-				'name' => 'Mixte sud',
-				'players' => 2
-			],
-			[
-				'name' => 'Mixte nord',
-				'players' => 2
-			],
-
 		]);
     }
 }

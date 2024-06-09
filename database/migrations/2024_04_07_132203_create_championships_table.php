@@ -17,6 +17,7 @@ return new class extends Migration
             $table->integer('season')->unsigned()->default(2024);
             $table->foreignId('championship_category_id')->constrained()->cascadeOnDelete();
             $table->string('state', 100)->default('active');
+			$table->enum('sector', ['north', 'south', 'finale'])->default('finale');
             $table->timestamps();
         });
     }

@@ -16,6 +16,11 @@ class Player extends Model
 		'name',
 	];
 
+	public function club(): BelongsTo
+	{
+		return $this->belongsTo(Club::class);
+	}
+
 	public function team(): BelongsTo
 	{
 		return $this->belongsTo(Team::class);

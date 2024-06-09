@@ -21,7 +21,7 @@ class EncounterResource extends Resource
 {
     protected static ?string $model = Encounter::class;
 
-    protected static ?string $navigationIcon = 'heroicon-s-user';
+    protected static ?string $navigationIcon = 'heroicon-s-arrow-path-rounded-square';
 
     public static function getNavigationLabel(): string
     {

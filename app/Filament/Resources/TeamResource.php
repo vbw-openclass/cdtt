@@ -20,7 +20,7 @@ class TeamResource extends Resource
 {
     protected static ?string $model = Team::class;
 
-    protected static ?string $navigationIcon = 'heroicon-s-user';
+    protected static ?string $navigationIcon = 'heroicon-s-user-group';
 
     public static function getNavigationLabel(): string
     {

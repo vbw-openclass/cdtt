@@ -20,7 +20,7 @@ class DetailMatchResource extends Resource
 {
     protected static ?string $model = DetailMatch::class;
 
-    protected static ?string $navigationIcon = 'heroicon-s-user';
+    protected static ?string $navigationIcon = 'heroicon-s-newspaper';
 
     public static function getNavigationLabel(): string
     {

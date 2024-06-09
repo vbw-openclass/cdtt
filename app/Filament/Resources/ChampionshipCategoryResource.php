@@ -20,7 +20,7 @@ class ChampionshipCategoryResource extends Resource
 {
     protected static ?string $model = ChampionshipCategory::class;
 
-    protected static ?string $navigationIcon = 'heroicon-s-user';
+    protected static ?string $navigationIcon = 'heroicon-s-tag';
 
     public static function getNavigationLabel(): string
     {

@@ -16,6 +16,7 @@ class Championship extends Model
 		'season',
 		'championship_category_id',
 		'state',
+		'name',
 	];
 
 	public function getNameAttribute(): string

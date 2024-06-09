@@ -17,6 +17,11 @@ class Team extends Model
 		'name',
 	];
 
+	public function getNameAttribute(): string
+	{
+		return $this->club->name . $this->number;
+	}
+
 	public function club(): BelongsTo
 	{
 		return $this->belongsTo(Club::class);
